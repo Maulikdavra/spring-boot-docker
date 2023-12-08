@@ -10,4 +10,10 @@ public class test {
     public String getMessage(){
         return "welcome to MD";
     }
+
+    @GetMapping("/api/md/updates")
+    public String getUpdates(){
+        return "welcome to MD updates";
+    }
+
 }
